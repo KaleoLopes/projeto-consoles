@@ -1,0 +1,124 @@
+body{
+    margin: 10% 10%;
+    font-size: 20px;
+    border: 2px solid;
+    background-image: linear-gradient(to right,#D9A282,#A66832,#734124);
+}
+
+header, main, footer{
+    background-color: white;
+}
+
+
+#intro-text{
+    text-align: left;
+    padding: 10px 50px 10px 50px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    padding: 20px;
+}
+
+nav{
+    display: flex; 
+    gap: 15px;  
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+
+#github-button-hover:hover{
+    transform: scale(1.05);
+}
+
+.links-button{
+    background-color: #ffee004d;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid;
+    font-size: 15px;
+    box-shadow: 3px 3px 4px black;
+}
+
+.links-button:hover{
+    transform: scaleX(1.05);
+    animation: ease-in-out 1s 2s;
+}
+
+.snes-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: #40240C;
+    text-shadow: 10px 10px 5px #744508c0;
+}
+
+#snes-console{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+
+.games-title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.games-foto-video{
+    margin: auto;
+    display: flex;
+    justify-content:  center;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.mario-img-vid{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.dk-img-vid{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.bomberman4-img-vid{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.text-resume{
+    padding: 10px 50px 10px 50px;
+    text-align: justify;
+}
+
+details{
+    padding: 10px 50px 10px 50px;
+    text-align: justify;
+    color: #40240C;
+}
+
+#next-page{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#github-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+}

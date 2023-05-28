@@ -1,0 +1,108 @@
+body{
+    margin: 10% 10%;
+    font-size: 20px;
+    border: 2px solid;
+    background-image: linear-gradient(to right,#D9A282,#A66832,#734124);
+}
+
+header, main, footer{
+    background-color: white;
+}
+
+
+#intro-text{
+    text-align: left;
+    padding: 10px 50px 10px 50px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 3px 3px 5px black;
+}
+
+nav{
+    display: flex; 
+    gap: 15px;  
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.links-button{
+    background-color: #ffee004d;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid;
+    font-size: 15px;
+    box-shadow: 3px 3px 4px black;
+}
+
+.snes-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: #40240C;
+    text-shadow: 10px 10px 5px #744508c0;
+}
+
+#playstation3-console{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+
+.games-title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.games-foto-video{
+    margin: auto;
+    display: flex;
+    justify-content:  center;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gtav-img-vid{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.reddead2-img-vid{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.crysis3-img-vid{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.text-resume{
+    padding: 10px 50px 10px 50px;
+    text-align: justify;
+}
+
+details{
+    padding: 0 50px 0 50px;
+    text-align: justify;
+    color: #40240C;
+}
+
+#next-page{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}

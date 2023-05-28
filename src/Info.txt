@@ -1,0 +1,5 @@
+As Imagens e Videos possuem:
+width = 300
+e
+Height = 206
+Seja por links e iframes ou local

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    background-attachment: fixed;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ hr{
+    background-color: black;
+    border: 0;
+    padding: 0.5px;
+}
+
+ a:hover{
+    color: #A66832;
+}
